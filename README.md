@@ -47,7 +47,7 @@ git commit -m "Task 1: HTML as Skeleton"  # Sesuaikan pesan dengan tugas yang ka
 
 Note: Untuk cek status file apakah sudah ditambahkan maupun dikomit, bisa dilakukan dengan `git status`
 
-10. **Push ke GitHub**: Dorong (push) cabang baru yang telah kamu buat ke repositori GitHub.
+10. **Push ke GitHub**: Push cabang baru yang telah kamu buat ke repositori GitHub.
 
 ```bash
 git push -u origin H071231nnn # Sesuaikan dengan NIM masing-masing
