@@ -57,8 +57,8 @@ git push -u origin H071231nnn # Sesuaikan dengan NIM masing-masing
 
 ## Tips Tambahan
 
-Pastikan untuk memberi nama yang deskriptif pada pesan commit tugas.\
-Gunakan pesan commit yang jelas agar mudah dimengerti olehmu suatu saat nanti.\
-Terima kasih sudah mengerjakan tugas ygy!
+- Pastikan untuk memberi nama yang deskriptif pada pesan commit tugas.
+- Gunakan pesan commit yang jelas agar mudah dimengerti olehmu suatu saat nanti.
+- Terima kasih sudah mengerjakan tugas ygy!
 
 ### -- LAB-WEB-Node.js-2024 --
