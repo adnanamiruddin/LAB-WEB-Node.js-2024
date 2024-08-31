@@ -22,13 +22,13 @@ Adnan ingin memastikan bahwa tata cara pengumpulan kode (commit) ke repositori i
 
 ```bash
 cd LAB-WEB-Node.js-2024
-git checkout -b H0712310-- # Sesuaikan dengan NIM masing-masing
+git checkout -b H071231nnn # Sesuaikan dengan NIM masing-masing
 ```
 
 6. **Masuk ke Folder**: Masuk ke directory/folder sesuai NIM.
 
 ```bash
-cd H0712310-- # Sesuaikan dengan NIM masing-masing
+cd H071231nnn # Sesuaikan dengan NIM masing-masing
 ```
 
 7. **Lakukan Perubahan**: Mulai mengedit atau menambahkan berkas (folder maupun file tugas) sesuai dengan instruksi tugas yang diberikan.
