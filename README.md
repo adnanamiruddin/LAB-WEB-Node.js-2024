@@ -1,6 +1,6 @@
-# LAB-WEB-Node.js-2024 Repository
+# LAB-WEB-09-2024 Repository
 
-Selamat datang di repositori LAB-WEB-Node.js-2024! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Pemrograman Web 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
+Selamat datang di repositori LAB-WEB-09-2024! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Pemrograman Web 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
 
 ## Tata Cara Pengumpulan (Commit)
 
@@ -21,7 +21,7 @@ Adnan ingin memastikan bahwa tata cara pengumpulan kode (commit) ke repositori i
 5. **Buat Cabang (Branch) Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu buat cabang sesuai nim masing-masing.
 
 ```bash
-cd LAB-WEB-Node.js-2024
+cd LAB-WEB-09-2024
 git checkout -b H071231nnn # Sesuaikan dengan NIM masing-masing
 ```
 
@@ -61,4 +61,4 @@ git push -u origin H071231nnn # Sesuaikan dengan NIM masing-masing
 - Gunakan pesan commit yang jelas agar mudah dimengerti olehmu suatu saat nanti.
 - Terima kasih sudah mengerjakan tugas ygy!
 
-### -- LAB-WEB-Node.js-2024 --
+### -- LAB-WEB-09-2024 --
