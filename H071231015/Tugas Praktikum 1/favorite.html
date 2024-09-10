@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h2>Daftar Tokoh Favorit</h2>
+    </center>
+
+    <table border="1">
+        <tr>
+            <td>
+                <center>
+                    <img src="images/tokoh1.jpg" alt="naruto" width="200px" height="200px">
+                    <p>Naruto Uzumaki</p>
+                    <p>Alasan saya mengidolakan Naruto Uzumaki adalah karena dia tak pernah menyerah meraih impiannya</p>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <img src="images/tokoh2.jpg" alt="guy" width="200px" height="200px">
+                    <p>Might Guy</p>
+                    <p>Saya mengidolakan Guy sensei karena dia merupakan sosok yang memulai dari awal tanpa adanya privilege dan bisa berhasil sukses menjadi ninja yang over power</p>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <img src="images/tokoh3.jpg" alt="madara" width="200px" height="200px">
+                    <p>Madara Uchiha</p>
+                    <p>Alasan saya mengidolakan lord Madara adalah karena beliau satu ini sangat realistis dengan kenyataan dunia shinobi</p>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <center>
+            <hr>
+            <h2>Masukkan idola:</h2> 
+                <label>Nama Idola:</label>
+                <input type="text" name="idola" required><br><br>
+
+                <label>Unggah Gambar:</label>
+                <input type="file" accept="image/*" required><br><br>
+
+                <label >Alasan Mengidolakan:</label><br>
+                <textarea rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Kirim</button>
+            </center>
+        </form>
+
+        <br>
+        <center>
+            <a href="/">kembali</a>
+        </center>
+</body>
+</html>
