@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Margin -->
+    <div class="bg-gray-500 m-12">Margin m-12</div>
+    <div class="bg-slate-500 m-8 ">Margin m-8</div>
+    <br><br>
+
+    <!-- Absolute & position -->
+    <div class="bg-rose-400 absolute top-0 left-0">Absolute</div>
+    <br>
+
+    <!-- display flex -->
+    <div class="flex justify-center items-center gap-8">
+        <div class="bg-red-600 w-24 h-24 ">Box 1</div>
+        <div class="bg-yellow-200 w-24 h-24">Box 2</div>
+        <div class="bg-green-500 w-32 h-32">Box 3</div>
+    </div>
+    <br><br>
+
+    <!-- grid -->
+    <div class="grid grid-cols-4">
+        <div class="bg-red-600 ">Box 1</div>
+        <div class="bg-yellow-200 ">Box 2</div>
+        <div class="bg-green-500 col-span-2">Box 3</div>
+    </div>
+    <br><br>
+
+    <!-- Custom Value -->
+    <div class="bg-[#70c1f9] w-[5.5rem]">Custom Value 1</div>
+
+    <h1 class="text-[#70f9a0] text-3xl font-bold">Text Custom</h1>
+</body>
+</html>
