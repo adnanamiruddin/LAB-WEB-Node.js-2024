@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coloring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Margin -->
+    <div class="bg-gray-500 m-12">Margin m-12</div>
+    <div class="bg-slate-500 m-8 px-4">Margin m-4</div>
+
+    <br />
+
+    <!-- Absolute & Position -->
+    <div class="bg-rose-400 absolute top-0 left-0">Absolute</div>
+
+    <br />
+
+    <!-- Display Flex -->
+    <div class="flex justify-center items-center gap-8">
+      <div class="bg-red-600 w-24 h-24">Box 1</div>
+      <div class="bg-yellow-400 w-24 h-24">Box 2</div>
+      <div class="bg-green-600 w-32 h-32">Box 3</div>
+    </div>
+
+    <br />
+
+    <!-- Display Grid -->
+    <div class="grid grid-cols-4">
+      <div class="bg-red-600">Box 1</div>
+      <div class="bg-yellow-400">Box 2</div>
+      <div class="bg-green-600 col-span-2">Box 3</div>
+    </div>
+
+    <br />
+
+    <!-- Custom Value -->
+    <div class="bg-[#d7f593] w-[5.5rem]">Custom Value 1</div>
+    <h1 class="text-[#4e6e97] text-3xl font-bold">Text Custom</h1>
+
+    <br />
+
+    <!-- Responsive -->
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        magni, ex non quaerat neque culpa architecto harum. Earum autem
+        similique suscipit velit doloribus ipsam explicabo repellendus,
+        exercitationem corporis eius ducimus consequatur in, incidunt assumenda
+        minus, natus qui? Quo quis doloremque harum est sapiente velit ullam,
+        nihil voluptates quia blanditiis nam.
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, vitae
+        natus explicabo impedit est maxime laboriosam, repellendus itaque sequi
+        magnam odit reiciendis adipisci voluptates esse quos, suscipit autem
+        totam illum a veritatis ratione possimus eveniet at cum. Adipisci ullam
+        saepe quisquam vel iste at officiis hic. Asperiores quae expedita
+        explicabo?
+      </p>
+    </div>
+
+    <h1
+      class="mt-8 pb-16 text-sm sm:text-base md:text-lg lg:text-2xl xl:text-5xl"
+    >
+      Text responsive
+    </h1>
+  </body>
+</html>
